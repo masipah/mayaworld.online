@@ -1,2 +1,2 @@
-# Welcome to !MAYAworld
-[mayaworld.online](https://mayaworld.online), a concept for a different web.
+# Welcome to [MAYAworld](https://mayaworld.online)
+A concept for a different web.
