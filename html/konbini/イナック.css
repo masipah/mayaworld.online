@@ -10,6 +10,30 @@ body {
   font-size: 10pt;
 }
 
+a:link {
+  text-decoration: none;
+  color: #ff6a00;
+}
+
+
+a:visited {
+  text-decoration: none;
+  color: #ff6a00;
+}
+
+
+a:hover {
+  text-decoration: none;
+  color: #ff6a00;
+}
+
+
+a:active {
+  text-decoration: none;
+  color: #ff6a00;
+}
+
+
 #雪月華 {
   position: absolute;
   right: 50%;
