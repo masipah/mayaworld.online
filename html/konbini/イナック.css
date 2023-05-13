@@ -5,7 +5,7 @@ body {
 }
 
 #content {
-  color: #00ff34;
+  color: #FF5F1F;
   font-family: 'Source Code Pro', monospace;
   font-size: 10pt;
 }
@@ -15,7 +15,7 @@ a:visited,
 a:link,
 a:active {
   text-decoration: none;
-  color: #00ff34;
+  color: #FF5F1F;
 }
 
 #雪月華 {
@@ -43,7 +43,7 @@ a:active {
   line-height: 1.11;
   overflow: hidden;
   z-index: -1;
-  color: #f0f
+  color: #303030
 }
 
 #雪月華 div:nth-child(1):before {
