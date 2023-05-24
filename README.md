@@ -1,2 +1,2 @@
-# Welcome to [MAYAworld online](https://mayaworld.online)
+# Welcome to [MAYAworld](https://mayaworld.online) online
 A concept, a reality, and a regression!
