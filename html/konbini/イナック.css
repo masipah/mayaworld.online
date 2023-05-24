@@ -4,6 +4,10 @@ body {
   background: black;
 }
 
+#ghost {
+  color: #000;
+}
+
 #content {
   color: #FF5F1F;
   font-family: 'Source Code Pro', monospace;
