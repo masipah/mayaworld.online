@@ -1,2 +1,2 @@
 # Welcome to [MAYAworld](https://mayaworld.online) online
-A concept, and reality! Uneven surfaces, please watch your step!
+A concept, a reality, and uneven surfaces! Please watch your step!
