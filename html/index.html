@@ -4,18 +4,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Black Background Website</title>
+  <title>MAYAworld</title>
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
   <style>
 	@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+	.btn-bd-primary {
+	--bs-btn-font-weight: 600;
+	--bs-btn-color: #6528e0);
+	--bs-btn-bg: #6528e0;
+	--bs-btn-border-color: #6528e0;
+	--bs-btn-hover-color: #6528e0;
+	--bs-btn-hover-bg: #6528e0;
+	--bs-btn-hover-border-color: #6528e0;
+	--bs-btn-focus-shadow-rgb: #6528e0);
+	--bs-btn-active-color: #6528e0;
+	--bs-btn-active-bg: #5a23c8;
+	--bs-btn-active-border-color: #5a23c8;
+	}
+	
 	body {
 	  background-color: black;
 	  color: #FF5F1F;
 	  padding-top: 100px;
-	  text-align: center;
+	  text-align: left;
 	  font-family: 'Roboto Mono', monospace;
 	}
 	
@@ -28,6 +41,13 @@
 	  font-size: 24px;
 	  margin-bottom: 20px;
 	}
+	
+	a {
+	  font-size: 24px;
+	  margin-bottom: 20px;
+	  color: #FF5F1F;
+	  text-decoration: none;
+	}
   </style>
 </head>
 
@@ -35,9 +55,35 @@
   <div class="container">
 	<div class="row">
 	  <div class="col">
-		<h1>MAYA world</h1>
-		<p>If you know why you’re here, <br>sign up and get your MAYA girl # >>here<<</p>
+		<h1>MAYAworld</h1>
+		<p>If you know why you’re here, <br>sign up and get your MAYA girl #</p>
 	  </div>
+	</div>
+	
+	<div class="container">
+	 <div class="row">
+	  <div class="col">
+		<script async
+		  src="https://js.stripe.com/v3/buy-button.js">
+		</script>
+		
+		<stripe-buy-button
+		  buy-button-id="buy_btn_1NO8leG4IMZs6kihjJcmxmBp"
+		  publishable-key="pk_live_51NNvBRG4IMZs6kih4QBo6f7E6JEFVgVpzewAsTgw8eNfNeQauP74E55DHUF46Dm2nCJyq1CfbYn8z8DmZtKT5Pev00NNL5Kq6f"
+		>
+		</stripe-buy-button>
+		<script async
+		  src="https://js.stripe.com/v3/buy-button.js">
+		</script>
+		
+		<stripe-buy-button
+		  buy-button-id="buy_btn_1NOrdgG4IMZs6kihrfzvLRjj"
+		  publishable-key="pk_live_51NNvBRG4IMZs6kih4QBo6f7E6JEFVgVpzewAsTgw8eNfNeQauP74E55DHUF46Dm2nCJyq1CfbYn8z8DmZtKT5Pev00NNL5Kq6f"
+		>
+		</stripe-buy-button>
+		<br>
+	  </div>
+	 </div>
 	</div>
 
 	<div class="row">
@@ -53,19 +99,18 @@
 
 	<div class="row">
 	  <div class="col">
-		<h1>Pitch Deck</h1>
+		<a href="HI MAYA ♡┉ˏ͛ (❛ 〰 ❛)ˊˎ┉♡.pdf">Pitch Deck</a>
 	  </div>
 	  <div class="col">
-		<h1>Handbook</h1>
+		<a href="MAYAgirl handbook ~v4 PUBLIC.pdf">Handbook</a>
 	  </div>
 	  <div class="col">
-		<h1>Essay</h1>
+		<a href="/essay">Essay</a>
 	  </div>
 	</div>
   </div>
 
-  <!-- Bootstrap JS -->
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 
 </html>
